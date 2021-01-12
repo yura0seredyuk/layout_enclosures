@@ -3,22 +3,27 @@ body {
   margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .blue {
   background-color: #308dc0;
-  box-sizing: border-box;
   width: 350px;
   margin: 20px 20px 40px;
 }
 
 .yellow {
-  margin: 10px;
   background-color: #ffa500;
 }
 
 .text {
-  margin: 10px;
   background-color: #ddd;
   padding: 10px;
+}
+
+.box {
+  margin: 10px;
 }
 
 .border {
